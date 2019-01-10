@@ -1,0 +1,47 @@
+
+https://www.youtube.com/watch?v=cfggyE1Ptbc
+//open studio code
+//ctrl+` for terminal
+
+mkdir LGBTQ
+cd LGBTQ
+react-native init mobile
+mkidr backend
+cd backend
+npm init --yes // yes for defaults and not prompting options
+yarn add express socket.io
+
+cd ..
+code .
+crt+`
+
+create index.js in backend, fill with socket.io .on and .listen logging
+
+cd backend
+npm i -g nodemon //-g global, can enter nodemon anytime in console
+nodemon index.js //realtime updates from code to dev
+
+new terminal button (+)
+
+************emu without A studio**************
+
+cd ~/Android/Sdk/tools/bin && ./avdmanager list avd
+//outputs list of emulators installed
+
+##Copy name of device you want to run and then
+
+cd ~/Android/Sdk/tools && ./emulator -avd NAME_OF_YOUR_DEVICE
+
+##in my case:
+##cd ~/Android/Sdk/tools && ./emulator -avd Nexus_6_API_22
+
+//have the android emulator open
+
+anothers console
+cd mobile
+react-native run-android
+
+clean the app.js, ill make sure to initiate git and commit before this so cleaning is in another commit
+
+cd to root folder
+git init
