@@ -1,5 +1,7 @@
 
 https://www.youtube.com/watch?v=cfggyE1Ptbc
+https://github.com/Hyllesen/TaxiApp/tree/01_SocketIoChat
+
 //open studio code
 //ctrl+` for terminal
 
@@ -33,7 +35,9 @@ cd ~/Android/Sdk/tools/bin && ./avdmanager list avd
 cd ~/Android/Sdk/tools && ./emulator -avd NAME_OF_YOUR_DEVICE
 
 ##in my case:
-##cd ~/Android/Sdk/tools && ./emulator -avd Nexus_6_API_22
+##******************************************
+********************************************
+cd ~/Android/Sdk/tools && ./emulator -avd Nexus_6_API_22
 
 //have the android emulator open
 
@@ -43,5 +47,31 @@ react-native run-android
 
 clean the app.js, ill make sure to initiate git and commit before this so cleaning is in another commit
 
-cd to root folder
+cd LGBTQ
 git init
+git config user.name "mr-programs"
+git config user.email "livingandwasting@hotmail.com"
+// might wanna add node-modules to .gitignore in this step
+git commit -m "base code, server runs and logs, app doesnt query yet"
+// might wanna make a gitlab private repo
+//case repo
+//git remote add origin https....git
+//git push -U origin master (no longer needed after)
+
+//mobile console
+yarn add socket.io-client  (because we only need the client
+
+committed before adding stuff
+
+ifconfig (requires net-tools installed, similar to ipconfig to check our local address)
+
+
+
+
+
+
+
+
+
+
+video left at 17:20
