@@ -1,7 +1,5 @@
 remember to run ifconfig and change the ip on the code with your new ip
 
-https://www.youtube.com/watch?v=cfggyE1Ptbc
-https://github.com/Hyllesen/TaxiApp/tree/01_SocketIoChat
 
 //open studio code
 //ctrl+` for terminal
