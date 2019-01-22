@@ -1,3 +1,4 @@
+remember to run ifconfig and change the ip on the code with your new ip
 
 https://www.youtube.com/watch?v=cfggyE1Ptbc
 https://github.com/Hyllesen/TaxiApp/tree/01_SocketIoChat
@@ -21,6 +22,7 @@ create index.js in backend, fill with socket.io .on and .listen logging
 
 cd backend
 npm i -g nodemon //-g global, can enter nodemon anytime in console
+***********RUN BACK SERVER
 nodemon index.js //realtime updates from code to dev
 
 new terminal button (+)
@@ -38,6 +40,8 @@ cd ~/Android/Sdk/tools && ./emulator -avd NAME_OF_YOUR_DEVICE
 ##******************************************
 ********************************************
 cd ~/Android/Sdk/tools && ./emulator -avd Nexus_6_API_22
+*********************************************
+
 
 //have the android emulator open
 
